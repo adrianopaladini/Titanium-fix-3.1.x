@@ -36,6 +36,7 @@ You can use the SDK 3.2.X and 3.1.X's smoothly.
 ### Cons
 Occupy approximately 4Gb more on your hard (A small price to pay for a great benefit).
 
+>Yes, power users, there is a way to do this without taking up much space using alias, but this is a boring way to do it too much work to recreate the entire estruture folder using the alias and on keeping SystemVersion.plist file, but you who understand not need a manual on how to do this, right?
 
 ### What is the error?
 This error happens because we have Xcode installed with the SDK 7.0.3 and Titanium Client 3.1.X does not understand the last digit "3", for it is the latest version 7.0.
@@ -57,7 +58,7 @@ First, close Titanium and Xcode if it's open.
 
 3 - Select the option **Show Package Contents**
 
-[![IMAGE ALT TEXT HERE](imgs/img-01.png)](imgs/img-01.png)
+![IMAGE ALT TEXT HERE](imgs/img-01.png)
 
 4 - Open the folder **Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs**
 
@@ -99,15 +100,15 @@ First, close Titanium and Xcode if it's open.
 
 3 - Open **Run Configurations...** window
 
-[![IMAGE ALT TEXT HERE](imgs/img-02.png)](imgs/img-02.png)
+![IMAGE ALT TEXT HERE](imgs/img-02.png)
 
 4 - Select all **Titanium iOS Simulator** profiles and delete it
 
-[![IMAGE ALT TEXT HERE](imgs/img-03.png)](imgs/img-03.png)
+![IMAGE ALT TEXT HERE](imgs/img-03.png)
 
 5 - Select all **Titanium iOS Device** profiles and delete it
 
-[![IMAGE ALT TEXT HERE](imgs/img-04.png)](imgs/img-04.png)
+![IMAGE ALT TEXT HERE](imgs/img-04.png)
 
 6 - Close this window and run simulator. *You will see a error*.
 
@@ -115,13 +116,13 @@ First, close Titanium and Xcode if it's open.
 
 8 - Change in the **Settings** the values for **iOS SDK** and **Simulator Version** to **7.0**
 
-[![IMAGE ALT TEXT HERE](imgs/img-05.png)](imgs/img-05.png)
+![IMAGE ALT TEXT HERE](imgs/img-05.png)
 
 9 - **Apply** and **Close**
 
 10 - Clean your project
 
-[![IMAGE ALT TEXT HERE](imgs/img-06.png)](imgs/img-06.png)
+![IMAGE ALT TEXT HERE](imgs/img-06.png)
 
 
 ### Ready?
