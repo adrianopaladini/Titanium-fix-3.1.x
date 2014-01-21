@@ -2,7 +2,7 @@
 
 ## Description
 
-The steps below will help you solve the problem of not being able to use more SDK 3.1.X in Titanium after upgrading it to 3.2.0 SDK.
+The steps below will help you solve the problem of not being able to use more SDK 3.1.X in Titanium after updating it to 3.2.0 SDK.
 
 After upgrading Xcode and Titanium, it works correctly if your project using the SDK 3.2.0.GA, but if you have some older project that uses the SDK 3.1.X, and you can not (or will not) upgrade it to SDK 3.2.0, probably should have seen this error:
 
