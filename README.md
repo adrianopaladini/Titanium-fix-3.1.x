@@ -36,7 +36,7 @@ You can use the SDK 3.2.X and 3.1.X's smoothly.
 ### Cons
 Occupy approximately 4Gb more on your hard (A small price to pay for a great benefit).
 
->Yes, power users, there is a way to do this without taking up much space using alias, but this is a boring way to do it too much work to recreate the entire estruture folder using the alias and on keeping SystemVersion.plist file, but you who understand not need a manual on how to do this, right?
+>Yes, power users, there is a way to do this without taking up much space using alias, but this is a boring way to do it too much work to recreate the entire folder structure using the alias and on keeping SystemVersion.plist file, but you who understand not need a manual on how to do this, right?
 
 ### What is the error?
 This error happens because we have Xcode installed with the SDK 7.0.3 and Titanium Client 3.1.X does not understand the last digit "3", for it is the latest version 7.0.
